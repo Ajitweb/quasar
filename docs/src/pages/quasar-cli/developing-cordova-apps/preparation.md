@@ -129,7 +129,9 @@ $ cordova plugin add cordova-plugin-ionic-webview
   * [https://github.com/ionic-team/cordova-plugin-ionic-webview](https://github.com/ionic-team/cordova-plugin-ionic-webview)
 
 #### Option 2: Cordova WkWebviewEngine Plugin
+Note - If your version of cordova-ios is 6+, then there is no need for Option 2, as wkwebview is moved to the core platform of cordova-ios, visit: [https://cordova.apache.org/2021/02/07/deprecate-wkwebview-engine.html]
 
+For cordova-ios versions < 6.00 :
 1. Install Cordova WkWebviewEngine Plugin
 
 ```bash
