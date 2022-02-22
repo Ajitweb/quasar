@@ -166,3 +166,8 @@ And here is part of what your config.xml should look like:
     <splash src="res/screen/ios/Default@2x~ipad~comany" />
 </platform>
 ```
+Double check the config.xml in the src-cordova folder. If you find the name attribute missing, then you have to add it :
+<platform name="android">
+</platform>
+<platform name="ios">
+</platform>
